@@ -1,0 +1,35 @@
+body {
+  margin: 1%;
+  background-color: #272a3b;
+  color: white;
+}
+
+.item-container {
+  display: inline-block;
+  margin-left: 3%;
+  width: 30%;
+}
+
+.image {
+  height: 300px;
+}
+
+.input-search {
+  text-align: center;
+  border: none;
+  height: 25px;
+  width: 22%;
+  display: inline-block;
+  margin-left: 3%;
+  border-radius: 5px;
+}
+
+.button-search {
+  background-color: white;
+    border: none;
+    height: 27px;
+    border-radius: 5px;
+    width: 4%;
+    display: inline-block;
+    margin-left: 2%;
+}

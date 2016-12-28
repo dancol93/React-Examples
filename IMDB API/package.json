@@ -1,0 +1,34 @@
+{
+  "name": "omdbapi",
+  "version": "1.0.0",
+  "description": "React example using omdb api",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base ./ --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancol93/React-Examples.git"
+  },
+  "author": "Daniel Colas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancol93/React-Examples/issues"
+  },
+  "homepage": "https://github.com/dancol93/React-Examples#readme",
+  "dependencies": {
+    "query-string": "^4.2.3",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint-loader": "^1.6.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
